@@ -1,0 +1,145 @@
+/* Reseteo del estilo aplicado por defecto por el navegador */
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+/* Fin del reseteo del estilo aplicado por defecto por el navegador */
+body {
+  padding: 0 0 0 0;
+  background-color: #5f5f5f;
+  background-image: url(../images/stardust.png);
+  background-position: top left;
+  background-repeat: repeat;
+  font-family: Helvetica, Arial, sans-serif;
+}
+a, a:visited, a:link, a:active {
+  /*color: #0000EE;*/
+  color: #FFABCD;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: darkred;
+}
+h1, h2, h3 {
+  color: #72b39e;
+}
+h1 {
+  color: #ffffff;
+  margin: 10px 0 15px 0;
+  text-align: center;
+  font-style: oblique;
+  font-size: 31px;
+}
+h2 {
+  margin: 10px 0 20px 0;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+h3 {
+  margin: 15px 0 15px 0;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 3px;
+  font-size: 18px;
+  font-weight: bold;
+}
+ul {
+  padding: 0 0 0 50px;
+}
+ul li {
+  margin: 0 0 5px 0;
+}
+ol {
+  padding: 0 0 0 50px;
+}
+.nav {
+  padding-left: 0;
+  margin: 15px 0 10px 0;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  padding-right: 10px;
+}
+.nav li:last-child {
+  padding-right: 0;
+}
+.nav a, .nav a:visited, .nav a:link, .nav a:active {
+    color: #00ddef;
+    text-decoration: none;
+}
+.nav a:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+.recetas {
+    list-style-type: none;
+    padding: 0;
+}
+.recetas li {
+    border: 1px solid #b56663;
+    padding-left: 15px;
+}
+.recetas h3 {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.recetas a {
+    color: #7facaa;
+    text-decoration: none;
+}
+.recetas a:hover {
+  text-decoration: none;
+  color: pink;
+}
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: #b56663;
+}
+.header a {
+    color: #ffffff;
+}
+.header h1 {
+    color: #ffffff;
+}
+.main-content {
+    width: 80%;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+    background: #ffffff url(../images/crossword.png) top left repeat;
+}
+.photos {
+    list-style-type: none;
+    padding: 0;
+}
+.photos li {
+    display: inline;
+    padding-left: 11px;
+}
+.photos img {
+    height: 120px;
+    width: 120px;
+}
+.header img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+.featured-image {
+    width: 500px;
+    height: 300px;
+    margin: 20px auto 10px auto;
+    background: #5f5f5f url(../images/pizza_1.jpg) top center no-repeat;
+}
+.featured-image h3 {
+    margin: 0;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 0 5px 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
